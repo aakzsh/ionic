@@ -145,10 +145,10 @@ const ExperimentCard = (props) => {
         contentLabel="Example Modal"
       >
         <div className={styles.modalcontent}>
-          <div>
+          {/* <div>
             <p className={styles.modallabel}>Enter your name</p>
             <input type="text" placeholder="Jon Doe" className={styles.modalinput} onChange={(evt)=>setUsername(evt.target.value)}/>
-          </div>
+          </div> */}
           <div>
             <p className={styles.modallabel}>Enter room code</p>
             <input type="text" placeholder="CUPCAKE" className={styles.modalinput}  onChange={(evt)=>setRoomname(evt.target.value)} />
